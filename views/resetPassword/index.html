@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Reset password</title>
+</head>
+<body class="bg-violet-50 dark:bg-slate-700">
+    
+<div id="container" class="h-screen flex justify-center items-center px-4 ">
+    <form class="flex flex-col p-4 rounded-xl gap-4 bg-zinc-200 shadow-lg dark:bg-slate-700 dark:text-zinc-100">
+        <h1 class="text-lg">Escribe tu correo, para la verificacion de la constraseña</h1>
+        <label for="email-input" class="font-bold">Eamil</label>
+        <input type="email" id="email-input" class="text-black rounded-xl p-2 bg-zinc-100 focus:outline-violet-700 dark:focus:outline-violet-200">
+        <button class="bg-violet-700 py-2 px-4 rounded-xl font-bold text-white hover:bg-violet-800 text-center transition ease-in-out disabled:opacity-50 disabled:cursor-not-allowed">Enviar correo</button>
+    </form>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
