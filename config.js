@@ -1,5 +1,5 @@
 const PAGE_URL = process.env.NODE_ENV === 'production'
-? 'https://todo-list-prueba-chie.onrender.com/'
+? 'https://todo-list-prueba-chie.onrender.com'
 : 'http://localhost:3005';
 
 const MONGO_URI = process.env.NODE_ENV === 'production'
